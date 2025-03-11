@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Alert, SafeAreaView } from 'react-native';
 import { Onboarding } from '@/src/components/onboarding'
 import { StatusBar } from 'expo-status-bar';
 import { router } from 'expo-router';
+import "@/src/styles/global.css";
 
 export default function Index() {
 
